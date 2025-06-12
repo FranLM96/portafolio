@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
@@ -7,7 +6,10 @@ export default function Contact() {
     <>
       <Head>
         <title>Contacto | Mi Portafolio</title>
-        <meta name="description" content="Contáctame para proyectos o colaboraciones" />
+        <meta
+          name="description"
+          content="Contáctame para proyectos o colaboraciones"
+        />
       </Head>
 
       <section className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white flex flex-col items-center justify-center px-6 py-20 sm:py-32">
@@ -19,8 +21,6 @@ export default function Contact() {
           No dudes en contactarme para colaboraciones o cualquier consulta.
         </p>
 
-        {/* Contact information grid temporarily commented out to fix build */}
-        {/*
         <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3 w-full max-w-5xl">
           {[
             {
@@ -37,7 +37,7 @@ export default function Contact() {
             },
             {
               icon: <FaPhoneAlt className="text-3xl text-blue-500 mb-4" />,
-              title: "Teléfono",
+              title: "WhatsApp",
               content: (
                 <a
                   href="https://wa.me/525539889660"
@@ -70,7 +70,6 @@ export default function Contact() {
             </div>
           ))}
         </div>
-        */}
 
         <p className="text-gray-500 mt-16 italic text-center max-w-md mx-auto select-none">
           Próximamente: formulario de contacto.

@@ -19,7 +19,7 @@ const Footer = () => {
             <li><a href="/" className="hover:text-light-blue transition">Inicio</a></li>
             <li><a href="/projects" className="hover:text-light-blue transition">Proyectos</a></li>
             <li><a href="/about" className="hover:text-light-blue transition">Sobre mí</a></li>
-            <li><a href="/contacto" className="hover:text-light-blue transition">Contacto</a></li>
+            <li><a href="/contact" className="hover:text-light-blue transition">Contacto</a></li>
           </ul>
         </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           <ul className="space-y-3 text-white/80">
             <li className="flex items-center gap-2">
               {/* @ts-ignore */}
-              <FaEnvelope className="text-primary-blue" /> 
+              <FaEnvelope className="text-primary-blue" />
               <a href="mailto:Francisco-luna3@hotmail.com" className="hover:underline text-light-blue">Francisco-luna3@hotmail.com</a>
             </li>
             <li className="flex items-center gap-2">
