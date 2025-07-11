@@ -53,6 +53,7 @@ const About = () => {
           <p className="text-light-blue max-w-2xl mx-auto text-lg">
             Diseñador Gráfico Digital apasionado por el diseño web y la fotografía. Fusiono estética y funcionalidad para crear experiencias visuales que cuentan historias y despiertan emociones.
           </p>
+        
         </div>
 
         {/* Main Content Grid */}
@@ -72,23 +73,37 @@ const About = () => {
               <h3 className="text-1xl font-bold text-primary-blue mb-4 flex items-center gap-2">
                 <Briefcase className="text-primary-blue" size={20} /> Experiencia Profesional
               </h3>
-              <ul className="space-y-4 text-primary-blue">
-                <li>
-                  <strong className="text-light-blue">Plaza Izazaga 38</strong> — Diseñador Jr<br />
-                  <span className="text-light-blue text-sm">Abr 2024 - Ene 2025</span>
-                  <ul className="list-disc list-inside text-light-blue">
-                    <li>Contenido para redes sociales</li>
-                    <li>Desarrollo de página en WordPress</li>
-                  </ul>
-                </li>
-                <li>
-                  <strong className="text-light-blue">Salón Casa Blanca</strong> — Community Manager<br />
-                  <span className="text-light-blue text-sm">Jul 2018 - Abr 2020</span>
-                  <ul className="list-disc list-inside text-light-blue">
-                    <li>Creación de contenido visual (imágenes y video)</li>
-                  </ul>
-                </li>
-              </ul>
+             <ul className="space-y-4 text-primary-blue">
+  <li>
+    <strong className="text-light-blue">Plaza Izazaga 38</strong> — Diseñador Jr<br />
+    <span className="text-light-blue text-sm">Abr 2024 - Ene 2025</span>
+    <ul className="list-disc list-inside text-light-blue">
+      <li>Contenido para redes sociales</li>
+      <li>Desarrollo de página en WordPress</li>
+      <li className="text-sm text-gray-400">
+        <strong>Referencia:</strong> Lic. Brenda Segura —{" "}
+        <a href="tel:+525510476745" className="underline hover:text-primary-blue">
+          +52 55 1047 6745
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+  <strong className="text-light-blue">Salón Casa Blanca</strong> — Community Manager<br />
+  <span className="text-light-blue text-sm">Jul 2018 - Abr 2020</span>
+  <ul className="list-disc list-inside text-light-blue">
+    <li>Creación de contenido visual (imágenes y video)</li>
+    <li className="text-sm text-gray-400">
+      <strong>Referencia:</strong> Lic. Eduardo Garcia —{" "}
+      <a href="tel:+525598765432" className="underline hover:text-primary-blue">
+        +52 55 9876 5432
+      </a>
+    </li>
+  </ul>
+</li>
+
+</ul>
+
             </div>
 
             <div id="education-section" ref={addToRefs} className="space-y-4 opacity-0">
